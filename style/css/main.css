@@ -1,0 +1,236 @@
+.message {
+  width: 1200px;
+  height: 152px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+}
+.message__img {
+  margin-left: 40px;
+}
+.message__inner {
+  padding-left: 24px;
+}
+.message__top {
+  display: flex;
+  align-items: center;
+}
+.message__photoshop {
+  font-weight: 700;
+  font-size: 14px;
+  color: #5CA5A5;
+}
+.message__new {
+  margin-left: 16px;
+  font-weight: 700;
+  font-size: 11px;
+  color: #fff;
+  padding: 6px 8px;
+  background-color: #5CA5A5;
+  text-align: center;
+  border-radius: 10px;
+}
+.message__featured {
+  margin-left: 16px;
+  font-weight: 700;
+  font-size: 11px;
+  color: #fff;
+  background-color: #2B3939;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 10px;
+}
+.message__title {
+  padding: 12px 0px;
+  color: #2B3939;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.message__bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.message__ago {
+  color: #7C8F8F;
+  font-weight: 500;
+  font-size: 15px;
+}
+.message__time {
+  margin-left: 25px;
+  color: #7C8F8F;
+  font-weight: 500;
+  font-size: 15px;
+}
+.message__time::before {
+  position: relative;
+  display: inline-block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #7C8F8F;
+  top: -2px;
+  right: 15px;
+}
+.message__usa {
+  position: relative;
+  margin-left: 25px;
+  color: #7C8F8F;
+  font-weight: 500;
+  font-size: 15px;
+}
+.message__usa::before {
+  position: relative;
+  display: inline-block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #7C8F8F;
+  top: -2px;
+  right: 15px;
+}
+.message__list {
+  display: flex;
+  margin-left: 250px;
+}
+.message__item {
+  margin-left: 16px;
+  padding: 6px 6px;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+}
+.message__link {
+  color: #5CA5A5;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 601px) {
+  .message {
+    position: relative;
+    width: 327px;
+    height: 250px;
+    margin: 50px 20px;
+    border-radius: 10px;
+    padding-bottom: 100px;
+  }
+  .message__img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: -21px;
+    top: -24px;
+  }
+  .message__title {
+    font-size: 15px;
+  }
+  .message__ago {
+    color: #7C8F8F;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .message__ago::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 279px;
+    height: 2px;
+    background-color: #B7C4C4;
+    top: 35px;
+  }
+  .message__time {
+    margin-left: 25px;
+    color: #7C8F8F;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .message__time::before {
+    position: relative;
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #7C8F8F;
+    top: -2px;
+    right: 15px;
+  }
+  .message__usa {
+    position: relative;
+    margin-left: 25px;
+    color: #7C8F8F;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .message__usa::before {
+    position: relative;
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #7C8F8F;
+    top: -2px;
+    right: 15px;
+  }
+  .message__item {
+    margin-bottom: 10px;
+  }
+  .message__list {
+    width: 250px;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    margin-left: -245px;
+  }
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #F2F2F2;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+@media only screen and (max-width: 1230px) {
+  .container {
+    max-width: 719px;
+  }
+}/*# sourceMappingURL=main.css.map */
